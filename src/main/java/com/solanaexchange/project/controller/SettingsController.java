@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = {"https://solanaexchange.netlify.app/","https://localhost:5173/"})
+@CrossOrigin(origins = {"https://solanaexchange.netlify.app/","https://localhost:5173/","https://solanaex.netlify.app"})
 @RequestMapping("/settings")
 public class SettingsController {
     @Autowired

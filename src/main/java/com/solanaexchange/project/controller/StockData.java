@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RequestMapping("/user")
 @RestController
-@CrossOrigin(origins = {"https://solanaexchange.netlify.app/","https://localhost:5173/"})
+@CrossOrigin(origins = {"https://solanaexchange.netlify.app/","https://localhost:5173/","https://solanaex.netlify.app"})
 public class StockData {
 @Autowired
     StockDataService stockDataService;
